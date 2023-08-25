@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/BoRCELLE (1).png">
+    <title>Gerenciador de Orçamento Pessoal</title>
+</head>
+<body >
+    <header>
+        <img src="img/BoRCELLE-removebg-preview.png" alt="Logo da empresa Finance">
+        <h1>Gerenciador de Orçamento Pessoal</h1>
+        <button class="daltonicoBtn"  alt="Botão para daltonicos">Para daltônicos</button>
+    </header>
+
+    <main>
+        <section class="form">
+            <div>
+                <p alt="Receitas">Receitas</p>
+                <form action="" id="form_receita">
+                    <input type="text" placeholder="Insira o nome" id="nomeR" alt="insira o nome da receita">
+                    <input type="number" placeholder="Insira o valor" min="0" id="numR" alt="insira o valor da receita">
+                    <button type="submit" alt="botão de enviar receitas" class="button">Enviar</button>
+                </form>
+                <p id="textoR"></p>
+    
+            </div>
+    
+            <div>
+    
+                <p alt="Gastos">Gastos</p>
+                <form action="" id="form_gastos">
+                    <input type="text" placeholder="Insira o nome" id="nomeG" alt="insira o nome do gasto">
+                    <input type="number" placeholder="Insira o valor" min="0" id="numG" alt="insira o valor do gasto">
+                    <button type="submit" alt="botão de enviar gasto" class="button">Enviar</button>
+                </form>
+                <p id="textoG"></p>
+    
+            </div>
+        </section>
+        
+
+        <div class="btn">
+
+            <button class="button divida" onclick="calcDivida()" alt="botão para ver divida" >Veja a sua dívida</button>
+            <button id="apagar"  class="button apaga" alt="botão de apagar o hitórico">Apagar o hitórico</button>
+
+        </div>
+
+        <span id="result"></span>
+
+        <section class="text">
+            <div>
+    
+                <h2 alt="Minhas Receitas">Minhas Receitas</h2>
+                <p id="mR"></p>
+    
+            </div>
+            <div>
+
+                <h2 alt="Meus gastos">Meus Gastos</h2>
+                <p id="eqg"></p>
+    
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
