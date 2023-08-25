@@ -1,6 +1,10 @@
 Júlia Monteiro, Maria Eduarda Sanches, Matheus Polato e Sarah
-Igor Cacerez Albino 
+
+Igor Cacerez Albino
+
+
 Técnico em Desenvolvimento de Sistemas
+
 25 de agosto de 2023
 
 Aplicação de conceitos UI/UX no projeto sobre JSON
